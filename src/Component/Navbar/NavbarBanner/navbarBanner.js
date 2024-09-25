@@ -14,24 +14,7 @@ const NavbarBanner = () => {
     <div className="navbarBanner">
       <div className="navbarBannerOptionsLeft">
 
-        <div className="optionsNavbarBanner">
-          <MenuIcon sx={{ fontSize: "24px" }} />
-          <div className="allOptionsNavbarBanner">All</div>
-        </div>
-
-        {
-          options.map((item, ind) => {
-            return (
-              <Link to={'/products'} className="optionsNavbarBanner" key={ind}>
-                <div className="allOptionsNavbarBanner">{item.name}</div>
-              </Link>
-            );
-          })
-        }
-
-
-
-
+        {/* please watch the video for code */}
 
 
       </div>

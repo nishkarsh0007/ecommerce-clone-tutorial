@@ -113,32 +113,7 @@ const Products = () => {
                         {
                             productDetail.product.map((item, index) => {
                                 return (
-                                    <div className="itemsImageProductPageOne" key={item.id}>
-                                        <div className="imgBloCkitemsImageProductPageOne">
-                                            <img src={item.imageUrl} className='productImageProduct' />
-                                        </div>
-                                        <div className="productNameProduc">
-                                            <div>{item.name}</div>
-                                            <div className="productNameProductRating">
-                                                <StarRateIcon sx={{ fontSize: "16px", color: "#febd69" }} />
-                                                <StarRateIcon sx={{ fontSize: "16px", color: "#febd69" }} />
-                                                <StarRateIcon sx={{ fontSize: "16px", color: "#febd69" }} />
-                                                <StarRateIcon sx={{ fontSize: "16px", color: "#febd69" }} />
-                                                <StarOutlineIcon sx={{ fontSize: "16px", color: "#febd69" }} />
-
-                                            </div>
-                                            <div className="priceProductDetailPage">
-                                                <div className="currencyText">₹</div>
-                                                <div className="rateHomeDetail">
-                                                    <div className="rateHomeDetailsPrice">{item.price}</div>
-                                                    <div className="addtobasketBtn" onClick={()=>{handleAddToCart(item)}}>Add To Cart</div>
-                                                </div>
-                                            </div>
-                                            <div className="offProductPage">Upto 10% Off on select cards</div>
-                                            <div className="freeDeliveryHomepage">Free Delivery By Amazon</div>
-
-                                        </div>
-                                    </div>
+                                    {/* please watch the video for code */}
                                 );
 
                             })

@@ -36,16 +36,7 @@ const Cart = () => {
                             return (
                                 <div className="cartItemBlock">
                                     <div className="cartItemLeftBlock">
-                                        <div className="cartItemLeftBlockImage">
-                                            <img className='cartItemLeftBlockImg' src={item.imageUrl} />
-                                        </div>
-                                        <div className="cartItemLeftBlockDetails">
-                                            <div className="cartItemProductName">{item.name}</div>
-                                            <div className="inStockCart">In stock</div>
-                                            <div className="elgFreeShp">Elligible for FREE Shopping</div>
-                                            <div className="amazonFullFilledImage"><img className='fullfillImg' src='https://m.media-amazon.com/images/G/31/marketing/fba/fba-badge_18px._CB485936079_.png' /></div>
-                                            <div className="removeFromCart" onClick={()=>{handleRemoveFromCart(item.id)}}>Remove From Basket</div>
-                                        </div>
+                                        {/* Please watch the video for the code  */}
                                     </div>
 
                                     <div className="cartItemRightBlock">

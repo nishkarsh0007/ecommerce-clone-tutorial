@@ -7,12 +7,7 @@ const Footer = () => {
             <div className="footerContent">
                 <div className="footerCont1">
                     <div className="contentFooterTitle">Get To Know Us</div>
-                    <div className="contentFooterSubTitlediv">
-                        <div className="contentFooterSubTitleCont">About US</div>
-                        <div className="contentFooterSubTitleCont">Careers</div>
-                        <div className="contentFooterSubTitleCont">Press Releases</div>
-                        <div className="contentFooterSubTitleCont">Amazon Science</div>
-                    </div>
+                    {/* please watch the video for code */}
 
                 </div>
                 <div className="footerCont1">
@@ -26,23 +21,12 @@ const Footer = () => {
 
                 <div className="footerCont1">
                     <div className="contentFooterTitle">Make Money With US</div>
-                    <div className="contentFooterSubTitlediv">
-                        <div className="contentFooterSubTitleCont">Sell on Amazon</div>
-                        <div className="contentFooterSubTitleCont">Sell under Amazon Accelerator</div>
-                        <div className="contentFooterSubTitleCont">Protect and Build Your Brand</div>
-                        <div className="contentFooterSubTitleCont">Amazon Global Selling</div>
-                        <div className="contentFooterSubTitleCont">Become an Affiliate</div>
-                        <div className="contentFooterSubTitleCont">Fulfilment by Amazon</div>
-                    </div>
+                    {/* please watch the video for code */}
                 </div>
                 
                 <div className="footerCont1">
                     <div className="contentFooterTitle">Lets Us Help You</div>
-                    <div className="contentFooterSubTitlediv">
-                        <div className="contentFooterSubTitleCont">COVID-19 and Amazon</div>
-                        <div className="contentFooterSubTitleCont">Your Account</div>
-                        <div className="contentFooterSubTitleCont">Returns Centre</div>
-                    </div>
+                    {/* please watch the video for code */}
                 </div>
             </div>
             <div className="amazonImg">

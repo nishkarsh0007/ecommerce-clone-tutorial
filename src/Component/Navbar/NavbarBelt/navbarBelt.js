@@ -22,16 +22,7 @@ const NavbarBelt = () => {
                     <span className='navbar_inLogo'>.in</span>
                 </Link>
 
-                <div className="navbarBeltLocation">
-                    <div className="navbarBeltLocationImg">
-                        <LocationOnOutlinedIcon className='navbarBeltLocationImgIcon' sx={{ fontSize: "22px" }} />
-                    </div>
-                    <div className="navbarBeltLocationPlace">
-                        <div className="navbarBeltLocationTop">Delivering to Pune 411032</div>
-                        <div className="navbarBeltLocationBottom">Update Location</div>
-                    </div>
-
-                </div>
+                {/* please watch the video for code */}
             </div>
             <div className="navbarBeltSearchBox">
                 <div className="navbarBeltSearchDiv">
@@ -40,33 +31,16 @@ const NavbarBelt = () => {
                         <ArrowDropDownOutlinedIcon sx={{ fontSize: "20px" }} />
                     </div>
 
-                    <input type='text' className='navbarBeltInputSearchBox' placeholder='Search Amazon.in' />
-
-                    <div className="searchIconNavbarBelt">
-                        <SearchIcon sx={{ fontSize: "26px" }} className='searchIconNavbarBeltIcon' />
-                    </div>
+                    {/* please watch the video for code */}
 
                 </div>
             </div>
             <div className="rightSideNavbarBelt">
                 <div className="indianFlagCode">
-                    <img src={india} className='indiaFlag' />
-                    <div className="indiaCodeNavbarBelt">EN 
-                    <ArrowDropDownOutlinedIcon sx={{fontSize:16,marginTop:1,marginLeft:-0.4}}
-                            className='indiaCodeNavbarBeltDrp'/></div>
+                    {/* please watch the video for code */}
                 </div>
 
-                <div className="helloSignInNavbaeBelt">
-                    <div className="helloTopNavbarBelt">Hello, User</div>
-                    <div className="indiaCodeNavbarBelt">Accounts & Lists</div>
-
-                </div>
-
-                <div className="helloSignInNavbaeBelt">
-                    <div className="helloTopNavbarBelt">Returns</div>
-                    <div className="indiaCodeNavbarBelt">& Orders</div>
-
-                </div>
+                {/* please watch the video for code */}
 
                 <Link to={'/cart'} className="helloSignInNavbaeBelt">
                     <span className='cartItemNumberNavbarBelt'>{cartItems.length}</span>
